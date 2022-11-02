@@ -10,6 +10,24 @@ headers = {
 }
 
 # armamos el listado con los productos que vamos a recabar informacion
+
+
+
+
+{"isbn": "123-456-222",
+ "author":
+    {
+        "lastname": "Doe",
+        "firstname": "Jane"
+    },
+ "editor":
+    {
+        "lastname": "Smith",
+        "firstname": "Jane"
+    },
+ "title": "The Ultimate Database Study Guide",
+ "category": ["Non-Fiction", "Technology"]
+ }
 productos = [{
     'super':
     "Carrefour",
@@ -116,18 +134,18 @@ productos = [{
 ]
 
 
-
-#func aux
+# func aux
 
 def standarizarPrecio(dataPrecio, super):
-    precio= ''.join(filter(str.isdigit, dataPrecio)),
+    precio = ''.join(filter(str.isdigit, dataPrecio)),
     print(super)
 
-    if super!='Carrefour':
+    if super != 'Carrefour':
         return str(round((int(precio[0]))/100))
 
     else:
         return precio[0]
+
 
 # Por cada producto:
 for producto in productos:
@@ -135,14 +153,15 @@ for producto in productos:
     # obtenemos la info de la pagina con el request.
     #  El timeout es para esperar a que cargue la pagina. para que los datos cargados posteriormente con css mediante before o javascript esten disponibles disposnibles
     url = str(producto['url'])
-    super=str(producto['super'])
+    super = str(producto['super'])
     page = requests.get(url, headers=headers, timeout=(1000, 1500))
     soup = BeautifulSoup(page.content, 'html.parser')
-   
+
     # element = soup.find("span", class_="lyracons-carrefourarg-product-price-1-x-currencyInteger")
-    dataPrecio = soup.find((producto['selector']), class_=producto['clase']).text
-    precio=standarizarPrecio(dataPrecio, super)
-    
+    dataPrecio = soup.find(
+        (producto['selector']), class_=producto['clase']).text
+    precio = standarizarPrecio(dataPrecio, super)
+
     # armamos los datos que se van a guardar
     prod = {
         "super": super,
@@ -156,6 +175,3 @@ for producto in productos:
     print("JSON Data")
     print(json.dumps(prod, default=str))
     # print(producto['super'], producto['categoria'], precio)
-
-
-
