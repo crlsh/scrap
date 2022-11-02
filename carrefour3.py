@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
+import json
+import datetime
 
 # ponemos la informacion del header para simular una conexion web valida
 headers = {
@@ -34,20 +36,9 @@ productos = [{
     'span',
     'clase':
     'lyracons-carrefourarg-product-price-1-x-currencyInteger',
-}, {
-    'super':
-    "Carrefour",
-    'categoria':
-    'arroz',
-    'nombre':
-    'Arroz parboil Gallo Oro caja 1 kg.',
-    'url':
-    'https://www.carrefour.com.ar/arroz-parboil-gallo-oro-caja-1-kg-37559/p',
-     'selector':
-    'span',
-    'clase':
-    'lyracons-carrefourarg-product-price-1-x-currencyInteger',
-}, {
+},
+
+    {
     'super':
     "Carrefour",
     'categoria':
@@ -77,11 +68,11 @@ productos = [{
     'super':
     "Carrefour",
     'categoria':
-    'arroz maximo',
+    'arroz doble carolina',
     'nombre':
-    'Arroz parboil Máximo bolsa 500 g',
+    'MOLINOS ALA Arroz Molinos Ala doble carolina bolsa 1 kg.',
     'url':
-    'https://www.carrefour.com.ar/arroz-parboil-maximo-bolsa-500-g/p',
+    'https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p',
     'selector':
     'span',
     'clase':
@@ -99,36 +90,55 @@ productos = [{
     'categoria': 'arroz',
     'nombre': 'Arroz Oro Parboil E/Bolsa Gallo 500 Gr',
     'url':
-    'https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070411839&P=1',
+    'https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1',
     'selector': 'div',
     'clase': 'izq',
+}, {
+    'super': "dino",
+    'categoria': 'arroz',
+    'nombre': 'Arroz Oro Parboil E/Bolsa Gallo 500 Gr',
+    'url':
+    'https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s',
+    'selector': 'div',
+    'clase': 'precio-unidad',
+
+
+}, {
+    'super': "la anonima",
+    'categoria': 'arroz doble carolina',
+    'nombre': 'Arroz Carolina Doble La Anónima x 1 Kg.',
+    'url':
+    'https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/',
+    'selector': 'div',
+    'clase': 'precio destacado',
 }
-
-
-
-
-
-
 
 ]
 
 # Por cada producto:
 for producto in productos:
 
-    # Por cada producto, obtenemos la info de la pagina con el request.
+    # obtenemos la info de la pagina con el request.
     #  El timeout es para esperar a que cargue la pagina. para que los datos cargados posteriormente con css mediante before o javascript esten disponibles disposnibles
     url = str(producto['url'])
     page = requests.get(url, headers=headers, timeout=(1000, 1500))
     soup = BeautifulSoup(page.content, 'html.parser')
 
     # element = soup.find("span", class_="lyracons-carrefourarg-product-price-1-x-currencyInteger")
-    precio = soup.find((producto['selector']), class_=producto['clase'])
+    precio = soup.find((producto['selector']), class_=producto['clase']).text
 
-    print(producto['super'], producto['categoria'], precio)
+    # armamos los datos que se van a guardar
+    prod = {
+        "super": producto['super'],
+        "tipo": producto['categoria'],
+        "fecha": datetime.datetime.now().strftime("%d-%m-%Y"),
+        "precio": precio,
 
-#   estrucutra de datos csv?
+    }
 
-#   producto
-#   super
-#   fecha
-#   valor
+    # imprimimos el josn (despues guardar en archivo)
+    print("JSON Data")
+    print(json.dumps(prod, default=str))
+    # print(producto['super'], producto['categoria'], precio)
+
+
