@@ -2,7 +2,10 @@ from bs4 import BeautifulSoup
 import requests
 import json
 import datetime
+from os import path
 
+# Nombre del archivo donde se guardan los datos
+filename = 'datos.json'
 
 product = {
     'arroz': {
@@ -27,7 +30,7 @@ product = {
             'clase': 'precio destacado', }
 
     },
-        'aceite': {
+    'aceite': {
         "Carrefour": {
             'url':  'https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p',
             'selector':  'span',
@@ -49,7 +52,7 @@ product = {
             'clase': 'precio destacado', }
 
     },
-            'manteca': {
+    'manteca': {
         "Carrefour": {
             'url':  'https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p',
             'selector':  'span',
@@ -71,7 +74,7 @@ product = {
             'clase': 'precio destacado', }
 
     },
-            'leche': {
+    'leche': {
         "Carrefour": {
             'url':  'https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p',
             'selector':  'span',
@@ -93,7 +96,7 @@ product = {
             'clase': 'precio destacado', }
 
     },
-                'Fideos': {
+    'Fideos': {
         "Carrefour": {
             'url':  'https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p',
             'selector':  'span',
@@ -154,15 +157,46 @@ for pr in product:
         # print(dataPrecio, super)
         precio = standarizarPrecio(dataPrecio, super)
         # print(producto, super, precio)
-    # armamos los datos que se van a guardar
+        # armamos los datos que se van a guardar
+
+        # chequear si existe archivo y si existe escribir los datos
+
         registro = {
             "super": super,
             'producto': producto,
+            'url' : url,
             "fecha": datetime.datetime.now().strftime("%d-%m-%Y"),
             "precio": precio,
         }
 
+        listObj = []
+
+         # Check if file exists
+        if path.isfile(filename) is False:
+            raise Exception("File not found")
+
+        # Read JSON file
+        with open(filename) as fp:
+            listObj = json.load(fp)
+
+        # Verify existing list
+        print(listObj)
+
+        print(type(listObj))
+
+        listObj.append(registro)
+
+        # Verify updated list
+        print(listObj)
+
+        with open(filename, 'w') as json_file:
+            json.dump(listObj, json_file,
+                      indent=4,
+                      separators=(',', ': '))
+
+        print('Successfully appended to the JSON file')
+
         # imprimimos el josn (despues guardar en archivo)
         # print("JSON Data")
-        print(json.dumps(registro, default=str))
+        # print(json.dumps(registro, default=str))
         # print(producto['super'], producto['categoria'], precio)
