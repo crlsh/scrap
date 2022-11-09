@@ -22,4 +22,3 @@ resultados=collection.find({"super":"carrefour"})
 for result in resultados:
      print(result)
 
-# print (resultados)
