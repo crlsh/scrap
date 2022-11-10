@@ -1,0 +1,59 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<py-env>
+   - matplotlib
+   - pandas
+   - seaborn
+</py-env>
+</head>
+<body>
+<div class="jumbotron">
+   <h1>Weather Data</h1>
+   <p class="lead">
+      Some graphs about the weather in London in 2020
+   </p>
+</div>
+<div class="row">
+   <div class="col-sm-2 p-2 ml-4 mb-1">
+   <button type="button" class="btn btn-secondary">Select chart from list:</button>
+   </div>
+   <div class="col-sm-4 p-2 mr-4 mb-1">
+      <select class="form-control" id="select">
+         <option value="Tmax">Maximum Temperature</option>
+         <option value="Tmin">Minimum Temperature</option>
+         <option value="Sun">Sun</option> 
+         <option value="Rain">Rain</option>
+      </select>
+   </div>
+</div>
+<div class="row">
+   <div class="col-sm-6 p-2 shadow ml-4 mr-4 mb-4 bg-white rounded">
+      <div id="chart1"></div>
+   </div>
+</div>
+<py-script>
+# Import libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Buscar los datos
+from pyodide.http import open_url
+url = 'https://raw.githubusercontent.com/crlsh/scrap/main/datos.json'
+url_content = open_url(url)
+df = pd.read_json(url_content)
+
+# Filtrar super Carrefour y producto arroz
+ejemplo=df.query('super =="Carrefour" and producto =="arroz"')
+df = df[df['super']=='Carrefour']
+
+print(df)
+# Dibujar el grafico
+
+
+</py-script>
+</body>
+</html>
