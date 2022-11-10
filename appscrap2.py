@@ -11,8 +11,11 @@ product = {
     'arroz': {
         "Carrefour": {
             'url':  'https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p',
+                   
             'selector':  'span',
             'clase':     'lyracons-carrefourarg-product-price-1-x-currencyInteger',
+
+        
         },
         "Dino": {
             'url':  'https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s',
