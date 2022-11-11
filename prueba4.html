@@ -68,15 +68,17 @@
         from pyodide.http import open_url
         url = 'https://raw.githubusercontent.com/crlsh/scrap/main/datos.json'
         url_content = open_url(url)
-        df2 = pd.read_json(url_content)
+        data = pd.read_json(url_content)
+        df1 = pd.DataFrame(data)
 
-        
+
+
         ## Get the data
-        from pyodide.http import open_url
+        <!-- from pyodide.http import open_url
         url = 'https://raw.githubusercontent.com/alanjones2/uk-historical-weather/main/data/Heathrow.csv'
         url_content = open_url(url)
         df = pd.read_csv(url_content)
-        df = df[df['Year']==2020]
+        df = df[df['Year']==2020] -->
 
         def plot(chart):
         fig = px.line(df,
@@ -84,6 +86,18 @@
         width=800, height=400)
         graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
         js.plot(graphJSON,"chart1")
+
+        def buscarPor(elem):
+        for group_name, df_group in prods:
+        if ( elem in group_name):
+        # print(type(group_name))
+        # print(format(group_name))
+
+        fecha=df_group['fecha']
+        precio=df_group['precio']
+        plt.plot (fecha, precio, linestyle='solid', label= group_name)
+        plt.legend()
+        plt.show()
 
 
         from js import document
