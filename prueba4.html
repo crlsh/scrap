@@ -47,20 +47,16 @@
     </div>
 
 
-    <script type='text/javascript'>
-        function plot(graph, chart) {
-            var figure = JSON.parse(graph)
-            Plotly.newPlot(chart, figure, {});
-        }
-    </script>
+    <py-script> print("My Lineplot")</py-script>
+    <div id="lineplot"></div>
 
-    <py-script>
+    <py-script output="lineplot">
         # Import libraries
         import pandas as pd
         import matplotlib.pyplot as plt
         import js
         import json
-        import plotly
+        import plotly as pl
         import plotly.express as px
     
         # Buscar los datos
@@ -98,7 +94,7 @@
     
         setup()
     
-        plot('arroz')
+        plt.plot('arroz')
     </py-script>
 </body>
 
