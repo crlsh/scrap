@@ -46,12 +46,7 @@ url = 'https://raw.githubusercontent.com/crlsh/scrap/main/datos.json'
 url_content = open_url(url)
 df = pd.read_json(url_content)
 
-#buscar precio del arroz en Carrefour
 
-ejemplo=df.query('super =="Carrefour" and producto =="arroz"')
-print ("Evolucion precio arroz en carrefour \n" ,ejemplo)
-
-precio = ejemplo['precio']
 
 
 </py-script>

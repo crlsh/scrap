@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <py-env>
+        - matplotlib
+        - pandas
+        - plotly
+        - pymongo
+    </py-env>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Aplicacion comparativa precios</h1>
+        <p class="lead">
+            Comparativa precios por localidades y cadenas
+
+            <py-script>
+                from datetime import datetime
+                now = datetime.now()
+                fecha = now.strftime("%m/%d/%Y")
+                print ("Fecha Actual: ", fecha )
+
+            </py-script>
+        </p>
+
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-2 p-2 ml-4 mb-1">
+            <button type="button" class="btn btn-secondary">Select chart from list:</button>
+        </div>
+        <div class="col-sm-4 p-2 mr-4 mb-1">
+            <select class="form-control" id="select">
+                <option value="Tmax">Maximum Temperature</option>
+                <option value="Tmin">Minimum Temperature</option>
+                <option value="Sun">Sun</option>
+                <option value="Rain">Rain</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <py-script>
+         
+            import pandas as pd
+            import matplotlib.pyplot as plt
+            
+            #leer datos del archivo json
+            
+            data= pd.read_json(r'datos.json')
+            # data = pd.read_csv(r'Path where the CSV file is stored\File name.csv')
+            df = pd.DataFrame(data)
+            
+            #imprimir toda la tabla que se importo
+            print (df)
+            
+            
+            
+            
+            #comparar valores 
+            ## en TODOS los datos 
+            max_price = df['precio'].max()
+            print ("Precio mas alto : ", max_price)
+            
+            
+            min_price = df['precio'].min()
+            print ("Precio mas bajo : ", min_price)
+            
+            ## precio promedio del aceite en todos los super
+            
+            mean1 = df['precio'].mean()
+            print (mean1)
+            
+            # cant de items por tabla
+            groupby_count1 = df.groupby(['super']).count()
+            print(groupby_count1)
+            
+            
+            #buscar precio del arroz en Carrefour
+            
+            ejemplo=df.query('super =="Carrefour" and producto =="arroz"')
+            print (ejemplo)
+            
+            ejemplo.plot
+            
+
+
+        </py-script>
+    </div>
+
+</body>
+
+</html>
