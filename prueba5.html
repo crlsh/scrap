@@ -39,13 +39,12 @@
         </div>
     </div>
 
-
-
     <div class="row">
         <div class="col-sm-6 p-2 shadow ml-4 mr-4 mb-4 bg-white rounded">
-            <div id="lineplot"></div>
+            <div id="chart1"></div>
         </div>
     </div>
+
 
     <script type='text/javascript'>
         function plot(graph, chart) {
@@ -57,7 +56,7 @@
 
 
 
-    <py-script output="lineplot">
+    <py-script>
         # Import libraries
         import pandas as pd
         import matplotlib.pyplot as plt
@@ -66,8 +65,7 @@
         import plotly 
         import plotly.express as px
         import plotly.graph_objects as go
-        from plotly.graph_objs.scatter.marker import Line
-        from plotly.graph_objs import Line
+      
     
         # Buscar los datos
         from pyodide.http import open_url
@@ -100,9 +98,8 @@
                     fecha=df_group['fecha']
                     precio=df_group['precio']
                     fig.add_trace(go.Scatter(x=df_group["fecha"], y=df_group["precio"], name=format(group_name), mode="lines"))
-                    graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-            fig.show()
-            js.plot(graphJSON,"lineplot")
+            graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+            js.plot(graphJSON,"chart1")
     
         from js import document
         from pyodide import create_proxy
