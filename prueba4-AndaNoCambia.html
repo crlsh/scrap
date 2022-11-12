@@ -19,13 +19,13 @@
     <div class="jumbotron">
         <h1>Aplicacion comparativa precios</h1>
         <p class="lead">
-            Permite comparar prod entre supermercados
+            Permite comparar precios de prod seleccionados entre supermercados
         </p>
     </div>
 
     <div class="row">
         <div class="col-sm-2 p-2 ml-4 mb-1">
-            <button type="button" class="btn btn-secondary">Select chart from list:</button>
+            <button type="button" class="btn btn-secondary">Seleccionar productos de la lista:</button>
         </div>
         <div class="col-sm-4 p-2 mr-4 mb-1">
             <select class="form-control" id="select">
@@ -42,13 +42,12 @@
 
     <div class="row">
         <div class="col-sm-6 p-2 shadow ml-4 mr-4 mb-4 bg-white rounded">
-            <div id="chart1"></div>
+            <div id="lineplot"></div>
         </div>
     </div>
 
 
-    <py-script> print("My Lineplot")</py-script>
-    <div id="lineplot"></div>
+
 
     <py-script output="lineplot">
         # Import libraries
@@ -64,9 +63,25 @@
         url = 'https://raw.githubusercontent.com/crlsh/scrap/main/datos.json'
         url_content = open_url(url)
         data = pd.read_json(url_content)
-        df1 = pd.DataFrame(data)
+        df = pd.DataFrame(data)
     
+
+        # Agrupar por producto y super...
+
+        prods= df.groupby(['producto', 'super'], as_index=False)
+
+        # detectar eleccion del menu
+
+        def selectChange(event):
+            choice = document.getElementById("select").value
+            buscarPor(choice)
+
+
+        
+
+        # graficar segun seleccion del menu
         def buscarPor(elem):
+            fig, ax = plt.subplots()
             for group_name, df_group in prods:
                 if (elem in group_name):
                     # print(type(group_name))
@@ -76,7 +91,9 @@
                     precio = df_group['precio']
                     plt.plot(fecha, precio, linestyle='solid', label=group_name)
             plt.legend()
-            plt.show()
+            <!-- plt.show() -->
+            fig
+            return fig
     
         from js import document
         from pyodide import create_proxy
@@ -94,7 +111,7 @@
     
         setup()
     
-        plt.plot('arroz')
+        buscarPor('arroz')
     </py-script>
 </body>
 
