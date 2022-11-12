@@ -1,61 +1,3 @@
-<html>
-
-<head>
-
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
-
-    <py-env>
-        - matplotlib
-        - pandas
-        - plotly
-    </py-env>
-</head>
-
-<body>
-    <div class="jumbotron">
-        <h1>Aplicacion comparativa precios</h1>
-        <p class="lead">
-            Permite comparar precios de prod seleccionados entre supermercados
-        </p>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-2 p-2 ml-4 mb-1">
-            <button type="button" class="btn btn-secondary">Seleccionar productos de la lista:</button>
-        </div>
-        <div class="col-sm-4 p-2 mr-4 mb-1">
-            <select class="form-control" id="select">
-                <option value="arroz">Arroz</option>
-                <option value="aceite">Aceite</option>
-                <option value="manteca">Manteca</option>
-                <option value="leche">Leche</option>
-                <option value="Fideos">Harina</option>
-
-            </select>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-6 p-2 shadow ml-4 mr-4 mb-4 bg-white rounded">
-            <div id="chart1"></div>
-        </div>
-    </div>
-
-
-    <script type='text/javascript'>
-        function plot(graph, chart) {
-            var figure = JSON.parse(graph)
-            Plotly.newPlot(chart, figure, {});
-        }
-    </script>
-
-
-
-
     <py-script>
         # Import libraries
         import pandas as pd
@@ -89,6 +31,8 @@
         
 
         # graficar segun seleccion del menu
+       
+
         def buscarPor(elem):
             fig = go.Figure()
             for group_name, df_group in prods:
@@ -104,7 +48,7 @@
     
         def selectChange(event):
             choice = document.getElementById("select").value
-            buscarPor(choice)
+            plot(choice)
 
         def setup():
             # Create a JsProxy for the callback function
@@ -117,6 +61,3 @@
     
         buscarPor('arroz')
     </py-script>
-</body>
-
-</html>
