@@ -1,0 +1,1782 @@
+[
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "fecha": "02-11-2022",
+        "precio": "225"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "fecha": "02-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "fecha": "02-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "fecha": "02-11-2022",
+        "precio": "257"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "fecha": "02-11-2022",
+        "precio": "898"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "fecha": "02-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "fecha": "02-11-2022",
+        "precio": "378"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "fecha": "02-11-2022",
+        "precio": "839"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "fecha": "02-11-2022",
+        "precio": "166"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "fecha": "02-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "fecha": "02-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "fecha": "02-11-2022",
+        "precio": "269"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "fecha": "02-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "fecha": "02-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "fecha": "02-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "fecha": "02-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "fecha": "02-11-2022",
+        "precio": "180"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "fecha": "02-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "fecha": "02-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "fecha": "02-11-2022",
+        "precio": "153"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "fecha": "02-11-2022",
+        "precio": "225"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "fecha": "02-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "fecha": "02-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "fecha": "02-11-2022",
+        "precio": "257"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "fecha": "02-11-2022",
+        "precio": "898"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "fecha": "02-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "fecha": "02-11-2022",
+        "precio": "378"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "fecha": "02-11-2022",
+        "precio": "839"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "fecha": "02-11-2022",
+        "precio": "166"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "fecha": "02-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "fecha": "02-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "fecha": "02-11-2022",
+        "precio": "269"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "fecha": "02-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "fecha": "02-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "fecha": "02-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "fecha": "02-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "fecha": "02-11-2022",
+        "precio": "180"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "fecha": "02-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "fecha": "02-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "fecha": "02-11-2022",
+        "precio": "153"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "02-11-2022",
+        "precio": "225"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "02-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "02-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "02-11-2022",
+        "precio": "257"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "02-11-2022",
+        "precio": "898"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "02-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "02-11-2022",
+        "precio": "378"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "02-11-2022",
+        "precio": "839"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "02-11-2022",
+        "precio": "166"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "02-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "02-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "02-11-2022",
+        "precio": "269"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "02-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "02-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "02-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "02-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "02-11-2022",
+        "precio": "180"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "02-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "02-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "02-11-2022",
+        "precio": "153"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "03-11-2022",
+        "precio": "225"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "03-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "03-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "03-11-2022",
+        "precio": "257"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "03-11-2022",
+        "precio": "898"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "03-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "03-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "03-11-2022",
+        "precio": "839"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "03-11-2022",
+        "precio": "173"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "03-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "03-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "03-11-2022",
+        "precio": "269"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "03-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "03-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "03-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "03-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "03-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "03-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "03-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "03-11-2022",
+        "precio": "153"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "04-11-2022",
+        "precio": "225"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "04-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "04-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "04-11-2022",
+        "precio": "257"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "04-11-2022",
+        "precio": "898"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "04-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "04-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "04-11-2022",
+        "precio": "839"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "04-11-2022",
+        "precio": "166"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "04-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "04-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "04-11-2022",
+        "precio": "269"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "04-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "04-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "04-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "04-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "04-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "04-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "04-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "04-11-2022",
+        "precio": "153"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "05-11-2022",
+        "precio": "225"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "05-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "05-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "05-11-2022",
+        "precio": "257"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "05-11-2022",
+        "precio": "864"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "05-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "05-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "05-11-2022",
+        "precio": "839"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "05-11-2022",
+        "precio": "166"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "05-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "05-11-2022",
+        "precio": "205"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "05-11-2022",
+        "precio": "269"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "05-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "05-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "05-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "05-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "05-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "05-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "05-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "05-11-2022",
+        "precio": "153"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "07-11-2022",
+        "precio": "225"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "07-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "07-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "07-11-2022",
+        "precio": "257"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "07-11-2022",
+        "precio": "864"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "07-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "07-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "07-11-2022",
+        "precio": "839"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "07-11-2022",
+        "precio": "166"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "07-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "07-11-2022",
+        "precio": "205"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "07-11-2022",
+        "precio": "269"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "07-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "07-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "07-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "07-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "07-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "07-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "07-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "07-11-2022",
+        "precio": "204"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "08-11-2022",
+        "precio": "225"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "08-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "08-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "08-11-2022",
+        "precio": "257"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "08-11-2022",
+        "precio": "864"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "08-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "08-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "08-11-2022",
+        "precio": "875"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "08-11-2022",
+        "precio": "166"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "08-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "08-11-2022",
+        "precio": "205"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "08-11-2022",
+        "precio": "269"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "08-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "08-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "08-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "08-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "08-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "08-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "08-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "08-11-2022",
+        "precio": "212"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "09-11-2022",
+        "precio": "225"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "09-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "09-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "09-11-2022",
+        "precio": "257"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "09-11-2022",
+        "precio": "864"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "09-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "09-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "09-11-2022",
+        "precio": "875"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "09-11-2022",
+        "precio": "166"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "09-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "09-11-2022",
+        "precio": "205"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "09-11-2022",
+        "precio": "269"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "09-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "09-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "09-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "09-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "09-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "09-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "09-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "09-11-2022",
+        "precio": "212"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "10-11-2022",
+        "precio": "347"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "10-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "10-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "10-11-2022",
+        "precio": "268"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "10-11-2022",
+        "precio": "864"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "10-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "10-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "10-11-2022",
+        "precio": "875"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "10-11-2022",
+        "precio": "124"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "10-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "10-11-2022",
+        "precio": "205"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "10-11-2022",
+        "precio": "279"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "10-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "10-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "10-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "10-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "10-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "10-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "10-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "10-11-2022",
+        "precio": "212"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "10-11-2022",
+        "precio": "347"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "10-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "10-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "10-11-2022",
+        "precio": "268"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "10-11-2022",
+        "precio": "864"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "10-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "10-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "10-11-2022",
+        "precio": "875"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "10-11-2022",
+        "precio": "124"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "10-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "10-11-2022",
+        "precio": "205"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "10-11-2022",
+        "precio": "279"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "10-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "10-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "10-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "10-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "10-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "10-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "10-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "10-11-2022",
+        "precio": "212"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "11-11-2022",
+        "precio": "347"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "11-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "11-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "11-11-2022",
+        "precio": "268"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "11-11-2022",
+        "precio": "864"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "11-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "11-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "11-11-2022",
+        "precio": "875"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "11-11-2022",
+        "precio": "124"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "11-11-2022",
+        "precio": "244"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "11-11-2022",
+        "precio": "205"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "11-11-2022",
+        "precio": "279"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "11-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "11-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "11-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "11-11-2022",
+        "precio": "215"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "11-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "11-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "11-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "11-11-2022",
+        "precio": "212"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "arroz",
+        "url": "https://www.carrefour.com.ar/arroz-molinos-ala-doble-carolina-bolsa-1-kg/p",
+        "fecha": "12-11-2022",
+        "precio": "347"
+    },
+    {
+        "super": "Dino",
+        "producto": "arroz",
+        "url": "https://www.dinoonline.com.ar/super/producto/arroz-dos-hermanos-doble-carolina-non-gmo-x-1-kg/_/A-2290320-2290320-s",
+        "fecha": "12-11-2022",
+        "precio": "276"
+    },
+    {
+        "super": "La Reina",
+        "producto": "arroz",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070415301&P=1",
+        "fecha": "12-11-2022",
+        "precio": "312"
+    },
+    {
+        "super": "La anonima",
+        "producto": "arroz",
+        "url": "https://supermercado.laanonimaonline.com/almacen/almacen/almacen/arroz-carolina-doble-la-anonima-x-1-kg/art_2720/",
+        "fecha": "12-11-2022",
+        "precio": "268"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "aceite",
+        "url": "https://www.carrefour.com.ar/aceite-de-girasol-cocinero-15-l-22002/p",
+        "fecha": "12-11-2022",
+        "precio": "864"
+    },
+    {
+        "super": "Dino",
+        "producto": "aceite",
+        "url": "https://www.dinoonline.com.ar/super/producto/aceite-de-girasol-legitimo-x-15-lt/_/A-2320213-2320213-s",
+        "fecha": "12-11-2022",
+        "precio": "515"
+    },
+    {
+        "super": "La Reina",
+        "producto": "aceite",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7798316700815&P=1",
+        "fecha": "12-11-2022",
+        "precio": "384"
+    },
+    {
+        "super": "La anonima",
+        "producto": "aceite",
+        "url": "https://supermercado.laanonimaonline.com/almacen/aceites/girasol/aceite-de-girasol-lira-x-1-5-lt/art_11381/",
+        "fecha": "12-11-2022",
+        "precio": "875"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "manteca",
+        "url": "https://www.carrefour.com.ar/manteca-tonadita-con-vitamina-e-100-g/p",
+        "fecha": "12-11-2022",
+        "precio": "124"
+    },
+    {
+        "super": "Dino",
+        "producto": "manteca",
+        "url": "https://www.dinoonline.com.ar/super/producto/manteca-milkaut-x-100-gr/_/A-3260492-3260492-s",
+        "fecha": "12-11-2022",
+        "precio": "3119"
+    },
+    {
+        "super": "La Reina",
+        "producto": "manteca",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7794820000595",
+        "fecha": "12-11-2022",
+        "precio": "205"
+    },
+    {
+        "super": "La anonima",
+        "producto": "manteca",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/mantecas/manteca-milkaut-x-100-g/art_19942/",
+        "fecha": "12-11-2022",
+        "precio": "279"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "leche",
+        "url": "https://www.carrefour.com.ar/leche-entera-fresca-la-serenisima-sachet-11802/p",
+        "fecha": "12-11-2022",
+        "precio": "207"
+    },
+    {
+        "super": "Dino",
+        "producto": "leche",
+        "url": "https://www.dinoonline.com.ar/super/producto/leche-la-serenisima-fresca-entera-clasica-3-grasa-sachet-x-1-lt/_/A-3262766-3262766-s",
+        "fecha": "12-11-2022",
+        "precio": "249"
+    },
+    {
+        "super": "La Reina",
+        "producto": "leche",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7793940448003&P=2",
+        "fecha": "12-11-2022",
+        "precio": "218"
+    },
+    {
+        "super": "La anonima",
+        "producto": "leche",
+        "url": "https://supermercado.laanonimaonline.com/frescos/lacteos/leches/leche-entera-up-la-serenisima-con-vit-a-y-d-sachet-x-1-lt/art_2531/",
+        "fecha": "12-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "Carrefour",
+        "producto": "Fideos",
+        "url": "https://www.carrefour.com.ar/fideos-mostacholes-rayados-matarazzo-500-g/p",
+        "fecha": "12-11-2022",
+        "precio": "192"
+    },
+    {
+        "super": "Dino",
+        "producto": "Fideos",
+        "url": "https://www.dinoonline.com.ar/super/producto/fideos-don-felipe-mostachol-pc-x-500-gr/_/A-2540077-2540077-s",
+        "fecha": "12-11-2022",
+        "precio": "224"
+    },
+    {
+        "super": "La Reina",
+        "producto": "Fideos",
+        "url": "https://www.lareinaonline.com.ar/productosdet.asp?Pr=7790070318596&P=1",
+        "fecha": "12-11-2022",
+        "precio": "195"
+    },
+    {
+        "super": "La anonima",
+        "producto": "Fideos",
+        "url": "https://supermercado.laanonimaonline.com/almacen/fideos/largos-y-guiseros/fideos-mostachol-lucchetti-x-500-g/art_11/",
+        "fecha": "12-11-2022",
+        "precio": "212"
+    }
+]
